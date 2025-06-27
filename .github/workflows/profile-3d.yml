@@ -1,28 +1,30 @@
 name: Generate 3D Profile
 
 on:
-  schedule:
-    - cron: '0 0 * * 0' # Runs weekly
   workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 0'  # Every Sunday
 
 jobs:
   build:
-    runs-on: ubuntu-latest
     name: Generate 3D GitHub Profile
+    runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v3
 
       - name: Generate 3D Profile SVG
-        uses: yihong0618/github-profile-3d-contrib@main
+        uses: yihong0618/github-profile-3d-contrib-action@main
         with:
-          output_file: ./profile-3d-contrib/profile-night-view.svg
+          username: nilay-goyal
+          output_dir: ./profile-3d-contrib
+          output_file: profile-night-view.svg
 
       - name: Commit & Push
         run: |
-          git config --global user.name 'GitHub Action'
-          git config --global user.email 'action@github.com'
-          git add .
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add profile-3d-contrib/profile-night-view.svg
           git commit -m "📈 Update 3D contribution graph"
           git push
