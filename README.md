@@ -1,5 +1,9 @@
 ![3D Profile](profile-3d-contrib/profile-night-view.svg)
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nilay-goyal&layout=compact&theme=radical)
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=nilay-goyal&show_icons=true&theme=radical)
+
 ### Hi there 👋
 
 Welcome to my GitHub Profile! My name is **Nilay Goyal** — I’m a Software Engineering + Economics student @ **McMaster University**. Thanks for visiting! Here’s a bit about me:
