@@ -5,9 +5,12 @@ on:
   schedule:
     - cron: '0 0 * * 0'  # every Sunday at 00:00 UTC
 
+permissions:
+  contents: write  # ensures commit & push permission
+
 jobs:
   build:
-    name: Generate 3D GitHub Profile
+    name: Generate 3D Contribution Graph
     runs-on: ubuntu-latest
 
     steps:
@@ -15,15 +18,17 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Generate 3D SVG
-        uses: yihong0618/github-profile-3d-contrib-action@main
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
         with:
-          username: nilay-goyal
-          output_dir: ./profile-3d-contrib
+          output_dir: profile-3d-contrib
           output_file: profile-night-view.svg
 
-      - name: Commit and Push if Changed
+      - name: Commit & Push if Changed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add ./profile-3d-contrib/profile-night-view.svg
-          git diff --cached --quiet || (git commit -m "📈 Auto-update 3D contribution graph" && git push)
+          git add profile-3d-contrib/profile-night-view.svg
+          git diff --cached --quiet || (git commit -m "📈 Auto-update 3D graph" && git push)
