@@ -1,18 +1,30 @@
-![3D Profile](profile-3d-contrib/profile-night-view.svg)
-
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nilay-goyal&layout=compact&theme=radical)
-
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=nilay-goyal&show_icons=true&theme=radical)
+![GitHub Streak](https://streak-stats.demolab.com?user=nilay-goyal&theme=radical&hide_border=true)
 
-### Hi there 👋
+### 👋 Hi there, I'm Nilay Goyal!
 
-Welcome to my GitHub Profile! My name is **Nilay Goyal** — I’m a Software Engineering + Economics student @ **McMaster University**. Thanks for visiting! Here’s a bit about me:
+🎓 I'm a **Software Engineering + Economics** student at **McMaster University**. Thanks for stopping by! Here's a bit about me:
 
-- 🔭 Currently working as a **Software Developer Co-op @ ICD National Charity**
-- 🧬 Prev: **Machine Learning Lead @ iGEM**, **Project Manager @ Project HC**
-- 📈 I’m interested in building tools that combine machine learning, systems, and human-centered design.
-- 🚀 Projects: ShelfSense, FireAlert, Protein-Ligand Predictors
-- 📫 How to reach me: nilay800@gmail.com
-- 🌟 Fun fact: I presented a synthetic biology project in **Paris** at iGEM 2024
+---
 
-Check out more about me [here](https://www.linkedin.com/in/nilay-goyal/)
+**💻 Currently:**
+- 🔭 Software Developer Co-op @ **ICD National Charity**
+- ☁️ Currently learning **AWS**
+- 🧠 Interested in building tools at the intersection of **ML**, **systems**, and **human-centered design**
+
+**🚀 Projects:**
+- ShelfSense – Smart Retail Inventory Tracker  
+- FireAlert – Real-time Wildfire Detection  
+- Protein-Ligand Predictors – Computational Drug Design  
+
+**📫 Reach Me:**
+- ✉️ Email: nilay800@gmail.com  
+- 💼 [LinkedIn](https://www.linkedin.com/in/nilay-goyal/)
+
+**🌍 Fun Fact:**
+- I presented a synthetic biology project in **Paris** at **iGEM 2024**
+
+---
+
+<!-- Optional: Add contribution graph or other widgets here -->
