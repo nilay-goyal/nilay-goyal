@@ -1,5 +1,6 @@
 <!-- 3D Contribution Graph -->
-![3D Profile](https://raw.githubusercontent.com/nilay-goyal/nilay-goyal/main/.github/profile-3d-contrib/profile-night-view.svg)
+![3D Profile](https://raw.githubusercontent.com/nilay-goyal/nilay-goyal/main/profile-3d-contrib/profile-night-view.svg)
+
 
 ### 👋 Hi there!
 
